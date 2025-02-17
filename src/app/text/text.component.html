@@ -1,0 +1,15 @@
+<div class="container">
+    <h2>Angular 19 Paragraph Search with Highlight</h2>
+  
+    <!-- Input Field for Search -->
+    <input 
+      type="text" 
+      [(ngModel)]="searchTerm" 
+      placeholder="Enter search term..." 
+      class="search-input"
+    />
+  
+    <!-- Display the paragraph with filtered and highlighted text -->
+    <p [innerHTML]="paragraph | filterText: searchTerm | highlightText: searchTerm"></p>
+  </div>
+  

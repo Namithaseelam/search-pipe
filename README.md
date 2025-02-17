@@ -21,6 +21,7 @@ Bootstrap - Styling and responsiveness
 Clone the repository:
 
 git clone https://github.com/your-repo/search-pipe.git
+
 cd search-pipe
 
 Install dependencies:
